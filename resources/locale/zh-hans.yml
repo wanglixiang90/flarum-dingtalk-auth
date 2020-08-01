@@ -1,0 +1,7 @@
+dingtalk-auth:
+  admin:
+    settings:
+      title: 钉钉企业内部登录设置
+      api_corp_id: API Corp ID
+      api_app_key: API App KEY
+      api_app_secret: API App Secret

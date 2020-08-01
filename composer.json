@@ -1,0 +1,40 @@
+{
+  "name": "halobear/flarum-dingtalk-auth",
+  "description": "钉钉企业内部应用免密登录",
+  "keywords": [
+    "flarum",
+    "dingtalk"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta.13",
+    "mingyoung/dingtalk": "^2.3"
+  },
+  "authors": [
+    {
+        "name": "Kevinwu",
+        "email": "kevinwu@halobear.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dingtalk\\Auth\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "钉钉企业内部应用免密登录",
+      "icon": {
+        "image": "resources/logo.svg",
+        "backgroundColor": "#3397f9",
+        "backgroundSize": "100%",
+        "backgroundRepeat": "no-repeat",
+        "backgroundPosition": "center"
+      }
+    },
+    "flagrow": {
+      "discuss": "https://discuss.flarum.org/t/extensions"
+    }
+  }
+}

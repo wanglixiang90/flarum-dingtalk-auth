@@ -1,0 +1,7 @@
+dingtalk-auth:
+  admin:
+    settings:
+      title: Dingtalk Auth Settings
+      api_corp_id: API Corp ID
+      api_app_key: API App KEY
+      api_app_secret: API App Secret
